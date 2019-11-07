@@ -1,6 +1,24 @@
-#include<iostream>
+#include<iostream>. // problem number =07; 
 using namespace std;
+int prime(long int z)
+{
+    for(int j=2;j<=z/2;j++)
+        if(z%j==0)
+            return 0;
+        return 1;
+}
 int main()
 {
-  
+    int count=0,ele;long int i;
+    cout<<"Enter=";cin>>ele;
+    for(i=2;i<=9999999999;i++)
+    {
+        if(prime(i))
+            count++;
+        if(count==ele)
+        {
+        cout<<i;
+        break;
+        }
+    }
 }
