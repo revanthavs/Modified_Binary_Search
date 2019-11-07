@@ -1,4 +1,4 @@
-#include<iostream>. // problem number =07; 
+#include<iostream> // problem number =07; 
 using namespace std;
 int prime(long int z)
 {
@@ -21,4 +21,15 @@ int main()
         break;
         }
     }
+}
+int main() //problem number=06;
+{
+    int sum3=0,sum2=0,sum1=0,n;
+    cout<<"Enter the nth number=";cin>>n;
+    sum1=n*(n+1)*(2*(n+1))/2;
+    cout<<"First sum="<<sum1<<endl;
+    sum2=n*(n+1)/2;
+    sum3=(sum2*sum2);
+    cout<<"Sum two="<<sum3<<endl;
+    cout<<"The difference between both of them="<<sum3-sum1<<endl;
 }
