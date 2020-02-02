@@ -27,7 +27,7 @@ class modified_binary_search{
       while(high>low)
       {
          mid=(low+high)/2;
-         if(a[low]<key || a[high]>key)
+         if(a[low]<key || a[high]>key){
             if(a[low]==key){
                System.out.println("The elemet found1 at"+low);
                   return;}
@@ -47,6 +47,7 @@ class modified_binary_search{
                            if(a[mid]<key)
                            low=mid+1;
                      }
+         }
       }
       System.out.println("The element not found");
    }
