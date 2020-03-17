@@ -1,6 +1,7 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 class binary_search{
    static public void main(String[] args){
+      java.util.Scanner input=new java.util.Scanner(System.in);
       Scanner input=new Scanner(System.in);//Declearing Scanner object
       int i,j,key,n,low,high,mid;//Declearing the elements
       System.out.println("Enter the size of the array");
